@@ -2,7 +2,7 @@
 from turtle import *
 
 #drawing first tower
-shape('circle')
+# shape('circle')
 speed(30)
 width(7)
 begin_fill()
@@ -157,6 +157,33 @@ color("Black")
 forward(1)
 penup()
 end_fill()
+
+#drawing grass
+penup()
+goto(0, 0)
+pendown()
+begin_fill()
+color("green")
+forward(200)
+left(90)
+forward(200)    #height of grass
+left(90)
+forward(800)    #width of grass
+left(90)
+forward(200)
+left(90)
+forward(200)
+end_fill()
+
+#drawing sun
+penup()
+goto(-60, 350)
+pendown()
+begin_fill()
+color("Yellow")
+circle(40)
+end_fill()
+
 
 exitonclick()
 

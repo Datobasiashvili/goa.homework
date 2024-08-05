@@ -1,0 +1,66 @@
+
+body {
+    background-color: darkgreen ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    border: 1px solid black;
+    width: 140vh;
+    height: 100vh;
+    border-radius: 30px;
+    background: url("https://scontent.ftbs5-2.fna.fbcdn.net/v/t39.30808-6/408864179_342479481868687_2724919989645877908_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=PZWZL-pKHI0Q7kNvgFGupgL&_nc_ht=scontent.ftbs5-2.fna&oh=00_AYDCwoS-3k9_aGaKFYnDqDyLMM45u0G-Z0lHmlFmoK_y6A&oe=66B5DED3");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.text-container {
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    justify-content: left;
+    align-items: left;
+    color: lime;
+}
+
+.parag{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.list {
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.links {
+    margin: 10px;
+    position: relative;
+    bottom: 0px;
+}
+
+.links a{
+    color: white;
+    text-decoration:none ;
+    font-size: 20px;
+}
+
+.links a:hover {
+    padding: 5px;
+    color: black;
+    background-color: red;
+    border: 1px solid black;
+}
+
+/* .text-container, .parag, .list, .links{
+    opacity: 50%;
+} */

@@ -1,0 +1,60 @@
+body {
+    background-color: rgba(235, 198, 97, 0.897);
+    color: maroon;
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    height: 13vh;
+}
+
+hr {
+    height: 1px;
+    background-color: white;
+    width: 100%;
+    border: 1px solid white;
+}
+
+ol {
+    list-style-position: inside;
+    font-size: 20px;
+}
+
+.first-page, .second-page, .third-page{
+    display: block;
+    text-align: center;
+}
+
+.first-page p, .second-page p, .third-page p {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.first-page img, .second-page img, .third-page img {
+    width: 260px;
+    height: 230px;
+    opacity: 85%;
+    border-radius: 25px;
+}
+
+.under {
+    width: 100%;
+    background-color: maroon;
+    color: white;
+    font-size: 35px;
+    margin-top: 10px;
+    border: 1px solid maroon;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    text-align: center;
+    height: 60px;
+}
+
+

@@ -1,0 +1,72 @@
+body {
+    background: linear-gradient(to left,rgba(48, 46, 46, 0.767), black);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    color: black;
+    font-size: 45px;
+    width: 50vh;
+    border-radius: 25px;
+}
+
+.menu{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+li {
+    color: White;
+}
+
+.list {
+    margin-right: 100px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    width: 35vh;
+    height: 20vh;
+}
+
+.prices {
+    font-size: 20px;
+}
+
+img {
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    border: 1px solid orange;
+    width: 55vh;
+    height: 50vh;
+    margin-left: 100px;
+    padding: 20px 100px 20px 20px;
+    background-color: rgb(255, 115, 0);
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+.link {
+    margin: 50px 20px 0 0;
+    background-color: white;
+    width: 150px;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+
+.link a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.link a:hover {
+    color: orangered;
+    font-size: 21px;
+    width: 155px;
+}

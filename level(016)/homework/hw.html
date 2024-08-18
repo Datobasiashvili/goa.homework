@@ -1,0 +1,84 @@
+<!-- შექმენით მარტივი ნავიგაციის მენიუ:
+
+დავალება: შექმენით unordered სია (<ul>) სიის სამი ელემენტით (<li>). თითოეული ელემენტი უნდა იყოს ბმული (<a>) ვებგვერდის სხვა სექციისთვის (მაგ. მთავარი, შესახებ, კონტაქტი).
+დაამატეთ ბმულები href ატრიბუტებით:
+
+დავალება 2: თქვენს მიერ შექმნილ ნავიგაციის მენიუში დაამატეთ href ატრიბუტები <a> ტეგებს, რათა ისინი დაუკავშირდნენ სხვადასხვა განყოფილებებს ან სხვა page-ებს.
+შექმენით სურათის ბმული:
+
+დავალება 3: დაამატეთ სურათი თქვენს ვებგვერდს <img> ტეგის გამოყენებით და გადაიტანეთ ის <a> ტეგში, რათა ის სხვა ვებგვერდის  ბმული გახდეს.
+დაამატეთ alt ატრიბუტი სურათებს:
+
+დავალება 4: თქვენ მიერ შექმნილი სურათის ბმულისთვის დაამატეთ alt ატრიბუტი სურათის აღწერის ალტერნატიული ტექსტის უზრუნველსაყოფად. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <h1><b><i>Penguins</i></b></h1>
+    <hr>
+    <ul>
+        <li><a href="#Main">Page Main</a></li>
+        <li><a href="#aboutUs">About Us</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+    </ul>
+    <div id="Main">
+        <h2>Main</h2>
+    </div>
+    <div id="aboutUs">
+        <h2>About Us</h2>
+    </div>
+    <div id="contact">
+        <h2>Contuct Us</h2>
+    </div>
+
+    <a href="https://en.wikipedia.org/wiki/Penguin" target="_blank"><img src="https://nzbirdsonline.org.nz/sites/all/files/2X2A1697%20King%20Penguin%20bol.jpg" alt="Penguins"></a>
+    <br>
+    <a href="https://en.wikipedia.org/wiki/Penguin" target="_blank">For more information</a>
+
+    <form>
+    </form>
+    <style>
+        body {
+            color: maroon;
+            background-color: burlywood;
+            font-family: Verdana, Geneva, Tahoma, sans-serif
+            ;
+        }
+
+        #Main, #aboutUs, #contact {
+            margin-top: 200px;
+            margin-bottom: 50px;
+        }
+
+        hr {
+            width: 100%;
+        }
+
+        img {
+            width: 125vh;
+            height: 90vh;
+            border-radius: 25px;
+        }
+
+        h1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 40px;
+        }
+
+        a {
+            font-size: 20px;
+        }
+
+        li {
+            margin: 5px;
+        }
+    </style>
+</body>
+</html>

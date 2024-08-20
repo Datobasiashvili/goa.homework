@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <style>
+        body {
+            background-color: gray;
+            color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            box-sizing: border-box;
+        }
+
+        .container {
+            border: 5px solid black;
+            border-radius: 25px;
+            display: block;
+            width: 75vh;
+            height: 105vh;
+        }
+
+        h1 {
+            display: block;
+            font-size: 50px;
+            text-align: center;
+        }
+
+        form {
+            margin: 10px;
+            width: 73vh;
+            height: 105vh;
+        }
+
+        #female, #male {
+            margin-right: 5px;
+            float: right;
+            width: 40px;
+        }
+
+        .container input {
+            width: 300px;
+            height: 15px;
+            border-radius: 25px;
+            border: 5px solid white;
+            float: right;
+            margin-right: 10px;
+        }
+
+        #submit {
+            width: 200px;
+            height: 33px;
+            margin: 50px 150px 0 0;
+        }
+
+        #submit:hover {
+            background-color: green;
+            color: white;
+            border: 5px solid green;
+        }
+
+        .container textarea {
+            float: right;
+            margin-bottom: 5px;
+        }
+
+        .container label {
+            font-size: 20px;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <h1><u><b>Registration Form</b></u></h1>
+
+        <div class="form">
+            <form>
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" required>
+                <br> <br>
+                
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" required>
+                <br><br>
+
+                <label for="nickName">Nick Name</label>
+                <input type="text" id="nickName" required>
+                <br><br>
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email" required>
+                <br> <br>
+
+                <label for="pass">Password</label>
+                <input type="password" name="pass" id="pass" required>
+                <br> <br>
+
+                <label for="date">Date of Birth</label>
+                <input type="date" id="date" required>
+                <br><br>
+
+                <label for="gender">Gender</label>
+
+                <label for="male" id="male">Male</label>
+                <input type="radio" id="male" name="gender" required>
+
+                <label for="female" id="female">Female</label>
+                <input type="radio" id="female" name="gender" required>
+                <br><br>
+
+                <label for="mobile">Mobile</label>
+                <input type="tel" id="mobile" required>
+                <br><br>
+
+                <label for="adress" id="adress">Adress</label>
+                <textarea name="adress" id="adress" cols="35" rows="5" required></textarea>
+                <br><br>
+
+                <input type="submit" id="submit" required>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

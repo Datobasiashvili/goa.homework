@@ -1,0 +1,78 @@
+<!-- 3) ააწყვეთ საიტი ნებისმიერ თემაზე თქვენ რაც გაგიხარდებათ, ამ საიტში უნდა იყოს საერთოდ ყველაფერი გამოყენებული რაც აქამდე ვისწავლეთ html ში -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site About Penguins</title>
+    <link href="hw2.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+
+        <div class="heading">
+            <h1><i>Domestic Dogs</i></h1>
+        </div>
+
+            <nav>
+                <a href="#evolution">Evolution</a>
+                <a href="#breeds">Dog Breeds</a>
+                <a href="#living">Living with Dogs</a>
+                <a href="#form">Login Form</a>
+            </nav>
+
+        <div class="evolution" id="evolution">
+            <p><span><b><i>Evolutionary origins</i></b></span>
+                All dogs descend from a species of wolf, but not the gray wolf (Canis lupus), like many people assume. In fact, DNA evidence suggests that the now-extinct wolf ancestor to modern dogs was Eurasian. However, scientists are still working to understand exactly what species gave rise to dogs.  <br><br>
+                
+                When dogs broke off from their wild ancestors is also a matter of mystery, but genetics suggest that it occurred between 15,000 and 30,000 years ago.
+                <br><br>
+
+                While it’s impossible to say exactly how a wild wolf species became a domesticated dog, most scientists believe the process happened gradually as wolves became more comfortable with humans. Perhaps wolves started down this path simply by eating human scraps. Many generations later, humans might have encouraged wolves to stay near by actively feeding them. Later still, those wolves may have been welcomed into the human home and eventually bred to encourage certain traits. All of this is thought to have unfolded over thousands of years.</p>
+        </div>
+
+        <img id="sheppard" src="https://cdn.britannica.com/79/232779-050-6B0411D7/German-Shepherd-dog-Alsatian.jpg" alt="Image of a German Shepard.">
+
+        <div class="breeds" id="breeds">
+            <p><span><i><b>Dog breeds</b></i></span>
+                Today, many of the dogs you know and love are the product of selective breeding between individuals with desirable traits, either physical or behavioral. For instance, around 9,500 years ago, ancient peoples began breeding dogs that were best able to survive and work in the cold. These dogs would become the family of sled dogs—including breeds such as huskies and malamutes—that remains relatively unchanged today.<br><br>
+                
+                Similarly, humans bred German shepherds for their ability to herd livestock, Labrador retrievers to help collect ducks and other game felled by hunters, and sausage-shaped Dachshunds for their ability to rush down a burrow after a badger. Many more breeds were created to fill other human needs, such as home protection and vermin control.<br><br>
+                
+                Certain breeds have also been created to make dogs more desirable as companions. For instance, the labradoodle, which combines the traits of a Labrador retriever and a poodle, was invented as an attempt to create a hypoallergenic guide dog.
+                </p>
+        </div>
+
+        <img id="puppy" src="https://hips.hearstapps.com/hmg-prod/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=0.752xw:1.00xh;0.175xw,0&resize=1200:*" alt="Image of a Puppy.">
+
+        <div class="living" id="living">
+            <p><span><i><b>Living with dogs</b></i></span>
+                Most dogs are a mix of breeds—in 2015, one study estimated that only 5 percent of dogs in shelters are purebred. Just as dogs come in all sizes, shapes, and colors, these animals also come in a spectrum of temperaments. A bulldog might look fierce but be cuddly as a kitten, whereas a cute cocker spaniel might nip at your finger without thinking twice.
+                
+                This is why animal handling expert Jack Hanna recommends teaching children to always exercise caution around a dog they do not know. For instance, he says kids should ask for permission from the dog’s owner before trying to pet or play with the animal. Offering an outstretched hand also allows the dog to familiarize itself with a new person before reaching behind its head where it can’t see what you’re doing, which might make a dog nervous or scared. Finally, never allow children to put their faces near the dog’s muzzle.
+                
+                </p>
+        </div>
+
+        <video controls>
+            <source src="1 Minute Video - Doggie.mp4" type="video/mp4">
+            <source src="1 Minute Video - Doggie.mp4" type="vidoe/ogg">
+            <source src="1 Minute Video - Doggie.mp4" type="video/webm">
+        </video>
+
+        <div class="form" id="form">
+            <form>
+                <h1><b><i>Login form</i></b></h1>
+                <label for="username">Enter your Username: </label>
+                <input type="text" name="username"  required>
+                <label for="pass">Enter your Password: </label>
+                <input type="password" name="pass" minlength="8" maxlength="15" required>
+                <label for="email">Enter your Email: </label>
+                <input type="email" name="email" id="email">
+
+                <input type="submit" name="submit" id="submit">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

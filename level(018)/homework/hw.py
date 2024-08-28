@@ -1,5 +1,5 @@
 #Bank project using  if elif else
-print("Welcome to Datos bank!\n")
+print("Welcome to Datos bank! \n")
 print("ATTENTION! In input field, If you enter any other option, It will be an Error!\n")
 answer = input("Do you have an account? (Yes/No): ")
 

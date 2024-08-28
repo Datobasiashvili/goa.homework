@@ -1,0 +1,16 @@
+body {
+    background-color: darkred;
+    display: grid;
+}
+
+video {
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    width: 40%;
+}
+
+audio {
+    display: block;
+    margin-top: 10px;
+}
